@@ -26,3 +26,6 @@ jobs:
         run: |
             echo "Secret var : ${{ secrets.MY_AGE }}"
             echo "Secret var : ${{ secrets.MY_PAY }}"
+      - name: Public var
+        run: |
+            echo "Public var : ${{ vars.MY_GRADE }}"
